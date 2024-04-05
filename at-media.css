@@ -1,6 +1,33 @@
+/* 1250 - (8)  */
 @media (min-width: 1250px) {
   nav {display: flex;}
+  #logo-two {display: none;}
+
+}
+/* 800 - 1249 */
+@media (min-width: 801px) and (max-width: 1249px) {
   main {margin-left: 0;}
-  #button-line {margin-left: 0;}
+  nav {display: none;}
+  input {font-size: 15px; min-width: 425px; margin-right: 72px;}
+  button {margin-right: 36px;height: 36px; width: 196px; font-size: 18px;}
+  #logo {display: none;}
+  /*#profile-img {translate: 0 -5px;}*/
+  #button-line {margin-left: 0; translate: 0 18vh; height: 72px;}
+  /*.header {justify-content: center;}*/
+  #music {height: 96px; width: 96px;}
+  #music-container {min-height: 128px; min-width: 96px; height: 10vh; width: 7.5vh; font-size: 14px; letter-spacing: 2px;}
 }
 
+
+@media (max-width: 800px) {
+  main {margin-left: 0;}
+  nav {display: none;}
+  input {font-size: 15px; min-width: 425px;}
+  button {margin-right: 36px;height: 36px; width: 196px; font-size: 18px;}
+  #logo {display: none;}
+  /*#profile-img {translate: 0 -5px;}*/
+  #button-line {margin-left: 0; translate: 0 18vh; height: 72px;}
+  /*.header {justify-content: center;}*/
+  #music {height: 96px; width: 96px;}
+  #music-container {min-height: 128px; min-width: 96px; height: 10vh; width: 7.5vh; font-size: 14px; letter-spacing: 2px;}
+}
