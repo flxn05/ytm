@@ -1,3 +1,6 @@
 @media (min-width: 1250px) {
   nav {display: flex;}
+  main {margin-left: 0;}
+  #button-line {margin-left: 0;}
 }
+
