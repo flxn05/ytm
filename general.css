@@ -1,5 +1,6 @@
 body {
   background-image: radial-gradient(darkgray, black, black);
+  height: 90vh;
   color: white;
   font-family: arial;
   animation: blur-fadein 1.5s ease-in-out forwards;
@@ -16,13 +17,19 @@ nav {
   top: 2.5vh;
   left: 4vw;
   bottom: 20vh;
-  width: 15vw;
+  width: 12.5vw;
   /* font-style */
   font-weight: bold;
   font-size: 18px;}
 
-#logo {
+#logo,
+#logo-two {
   animation: start 1s ease-in-out 1.5s forwards;
+  display: inline-block;
+}
+
+#logo-two {
+  margin-right: 24px;
 }
 
 .header {
@@ -65,30 +72,6 @@ input:hover {
   animation: hover 1s ease-in-out forwards;
   border: black;
 }
-/*
-#profile-img {
-  height: 4vh;
-  width: 4vh;
-  flex: 1;
-  cursor: pointer;
-  position: absolute;
-}
-#tooltip-profile {
-  position: relative;
-  translate: -8vh 44px;
-  background-color: rgba(128, 128, 128, 0.39);
-  border-radius: 5px;
-  text-align: center;
-  width: 10vw;
-  padding: 12px;
-  opacity: 1;
-}
-#profile-img:hover
-#tooltip-profile {
-  opacity: 1;
-  background-color: red;
-}*/
-
 #profile-img {
   height: 4vh;
   width: 4vh;
@@ -190,7 +173,7 @@ main {
   min-height: 250px;
   min-width: 200px;
   height: 15vh;
-  width: 10vh;
+  width: 10vw;
   background-color: transparent;
   padding: 12px;
   border: 1px solid grey;
